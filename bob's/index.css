@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  padding: 0;
+  margin: 0;
+  background-color:	#dddddd;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #819ac5;
+  padding-top: 27px;
+  min-height: 70px;
+  border-bottom: #FF69B4 4px solid;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+ul {
+margin: 0;
+padding: 0;
+float: right;
+}
+
+header #welcome {
+  float: left;
+}
+
+header #welcome h1 {
+  margin: 0;
+  font-size: 29px;
+  color: #FF69B4;
+}
+
+header nav {
+  margin-top: 13px;
+  float: right;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 23px;
+}
+
+header .current a {
+  color: #cccccc;
+}
+
+header a:hover {
+  color: #cccccc;
+}
+
+#branding {
+  min-height: 400px;
+  background: url('showcase.jpg') no-repeat 0;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+#branding h1 {
+  margin-top: 150px;
+  font-size: 57px;
+  margin-bottom: 11px;
+}
+
+#appointment {
+  padding: 15px;
+  color: white;
+  background: #819ac5;
+}
+
+#appointment a {
+  text-decoration: none;
+  color: white;
+}
+
+#appointment h1 {
+    float: left;
+}
+
+#appointment a:hover {
+  color: #cccccc;
+}
+
+#logos {
+  margin-top: 20px;
+
+}
+
+#logos .logo {
+  margin: auto;
+  text-align: center;
+  width: 30%;
+  padding: 15px;
+}
+
+#logos .logo img {
+  border-radius: 50%;
+  width: 210px;
+}
+
+footer {
+  padding: 15px;
+  margin-top: 15px;
+  color: white;
+  background-color: #819ac5;
+  text-align: center;
+}
